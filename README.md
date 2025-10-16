@@ -30,8 +30,8 @@ Secondly, change the last line of the code similarly.
 
 The raw data are in "raw_data" folder. Some examples are:
 A. State data
-	-sadc_2023_state_a_d.dat
-	-sadc_2023_state_e_h.dat
+	-sadc_2023_state_a_d.dat \\
+	-sadc_2023_state_e_h.dat \\
 	-sadc_2023_state_i_l.dat
 	-sadc_2023_state_m.dat
 	-sadc_2023_state_n_p.dat
