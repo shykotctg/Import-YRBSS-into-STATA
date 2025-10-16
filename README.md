@@ -20,29 +20,27 @@ We need yrbs.dct dictionary file to read in. This yrbs.dct file is in raw_data
 forlder. Place all the raw ASCII .dat files in raw_data folder alonside yrbs.dct 
 
 At first, we need to change the data file name in yrbs.dct file, and run this 
-do file, and export it as STATA .dta file in intermediate_data folder. 
-For example, to read-in "sadc_2023_state_a_d.dat", 
-first open yrbs.dct and change the first line 
-from "infix dictionary using sadc_2023_state_x_x.dat" 
-to   "infix dictionary using sadc_2023_state_a_d.dat"
+do file, and export it as STATA .dta file in intermediate_data folder. <br>
+For example, to read-in "sadc_2023_state_a_d.dat", <br>
+first open yrbs.dct and change the first line <br>
+from "infix dictionary using sadc_2023_state_x_x.dat" <br>
+to   "infix dictionary using sadc_2023_state_a_d.dat" <br>
 
-Secondly, change the last line of the code similarly.
+Secondly, change the last line of the code similarly. <br>
 
-The raw data are in "raw_data" folder. Some examples are:
-A. State data
-	-sadc_2023_state_a_d.dat 
-	
-	-sadc_2023_state_e_h.dat 
-	
-	-sadc_2023_state_i_l.dat
-	-sadc_2023_state_m.dat
-	-sadc_2023_state_n_p.dat
-	-sadc_2023_state_q_t.dat
-	-sadc_2023_state_u_z.dat
+The raw data are in "raw_data" folder. Some examples are: <br>
+A. State data <br>
+	-sadc_2023_state_a_d.dat <br>
+	-sadc_2023_state_e_h.dat <br>
+	-sadc_2023_state_i_l.dat <br>
+	-sadc_2023_state_m.dat <br>
+	-sadc_2023_state_n_p.dat <br>
+	-sadc_2023_state_q_t.dat <br>
+	-sadc_2023_state_u_z.dat <br>
 
-B. National and district data
-	-sadc_2023_national.dat
-	-sadc_2023_district.dat
+B. National and district data <br>
+	-sadc_2023_national.dat <br>
+	-sadc_2023_district.dat <br>
 
 ## Append and label
 
